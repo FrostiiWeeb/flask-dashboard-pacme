@@ -1,7 +1,5 @@
 from flask import Flask, render_template, request, session
 from oauth import Oauth
-from discord.ext import commands
-import discord
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "test123"
