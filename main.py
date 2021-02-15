@@ -35,4 +35,4 @@ def login():
 
 
 if __name__ == "__main__":
-	app.run(host='pacme.ddns.net',debug=True)
+	app.run(debug=True)
